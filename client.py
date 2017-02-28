@@ -9,7 +9,7 @@ CHANNELS = 1
 RATE = 44100
 
 IP = '127.0.0.1'    # The remote host
-PORT = 50007              # The same port as used by the server
+PORT = 50007        # The same port as used by the server
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((IP, PORT))
@@ -38,3 +38,4 @@ p.terminate()
 s.close()
 
 print("*closed")
+#done
